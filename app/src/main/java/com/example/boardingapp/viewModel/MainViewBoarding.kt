@@ -40,6 +40,13 @@ fun MainViewBoarding(navController: NavController, store : StoreBoarding){
     )
     items.add(
         PageData(
+            "4ta Pagina",
+            "Qiubo, Esta es la 3ra realmente, pero es la recien agregada",
+            R.raw.page4,
+        )
+    )
+    items.add(
+        PageData(
             "Fin de Boarding!!",
             "Esta es la pagina final del onBoarding y ya deberia apareer el boton.",
             R.raw.page3,
